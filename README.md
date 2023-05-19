@@ -62,11 +62,11 @@ O professor ofertou a opção de escolhermos qual protótipo desenvolver e escol
 
 #### 5.3 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM OS SISTEMA WEB/MOBILE PROPOSTOS?
 
-Relatório sobre quais instrutores estão relacionados a alguma matéria
-Relatório sobre quais horarios e quais dias da semana estão disponiveis por algum instrutor
-Relatório da quantidade de instrutores em uma determinada região
-Relatório de quais matérias foram mais escolhidas pelos usuários
-Relatório sobre as avaliações realizadas entre os usuários
+Relatório sobre quais instrutores estão relacionados a alguma matéria<br>
+Relatório sobre quais horarios e quais dias da semana estão disponiveis por algum instrutor<br>
+Relatório da quantidade de instrutores em uma determinada região<br>
+Relatório de quais matérias foram mais escolhidas pelos usuários<br>
+Relatório sobre as avaliações realizadas entre os usuários<br>
     
  ### 6.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
