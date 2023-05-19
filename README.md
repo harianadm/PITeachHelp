@@ -5,8 +5,10 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Davi Cardoso Salles :cardososallesdavi@gmail.com<br>
-Evelyn Pereira :evelynpo59@gmail.com<br>
+Davi Cardoso Salles: cardososallesdavi@gmail.com<br>
+Evelyn Pereira: evelynpo59@gmail.com<br>
+Harian Adami Chagas Radaelli: harianadami@gmail.com<br>
+Wilsiman Santos Evangelista Silva: 
 ...
 
 ### 2.MINIMUNDO<br>
@@ -19,17 +21,6 @@ Descrição textual das regras de negócio definidas como um subconjunto do mund
 Como você solucionou esse problema? Acredita que necessitava de professores à sua disposição? Inspirados nisso desenvolvemos uma plataforma de instrutores particulares, o TeachHelp
 Nossa plataforma possibilita conectar instrutores especializados que ensinam conteúdos personalizados aos usuários. Não só matérias do meio acadêmico, mas diversos âmbitos e especializações, como esportes, música, informática, entre outros. 
 Nosso sistema irá conter informações sobre os alunos (nome, e-mail, telefone e endereço) e dos instrutores (nome, e-mail, telefone, endereço, região em que dará aula, matéria e currículo). O aluno poderá procurar por professores por uma aba de pesquisa e filtrar por região e matéria que precisa; já o professor poderá realizar o cadastro e receberá uma solicitação assim que seus serviços forem acionados. O aplicativo irá disponibilizar um chat para um contato inicial do aluno com o professor/instrutor, além de tornar o currículo do instrutor/professor acessível para os alunos.
-
-Requisitos:
-O sistema deve permitir os usuários visualizarem uma lista com os instrutores cadastrados e suas respectivas informações
-O sistema deve possuir local para avaliação dos instrutores por parte dos usuários
-O sistema deve possuir uma área para visualização da agenda de atividades do instrutor
-O sistema deve permitir que alunos se cadastrem. Para isso, é preciso as informações de nome, e-mail, endereço e telefone. 
-O sistema deve permitir que instrutores se cadastrem. Para isso, é preciso as informações de nome, e-mail, endereço, telefone, matéria.
-O sistema será web/mobile
-A lista de instrutores visualizada pelos usuários terá um filtro para pesquisa
-O sistema será construído em html, css, js e php (web) e java (mobile)
-
 
 ### 3.PMC<br>
 Nosso PMC: https://docs.google.com/presentation/d/1yU2cTgEOXstYfytNe7FxaqfhF0bWs9rByE93pu4grcs/edit?usp=sharing <br>
@@ -44,6 +35,7 @@ Dicionário <br>
 
 ![image](https://github.com/harianadm/PITeachHelp/assets/91471333/1b5b87bc-4fb2-4d62-86cf-947ae2ab673b) <br>
 
+![image](https://github.com/harianadm/PITeachHelp/assets/91471333/dbeae1d9-dbae-4339-a38b-09f1482889db) <br>
 
 
 #### 3.2. Requisitos funcionais e não funcionais
