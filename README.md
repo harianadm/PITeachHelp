@@ -72,8 +72,7 @@ Relatório sobre as avaliações realizadas entre os usuários<br>
     
  ### 6.MODELO CONCEITUAL<br>
  ![image](https://github.com/harianadm/PITeachHelp/assets/91471333/bdbe4c93-5bb5-4ff4-b8d5-1714462b2b1a)
- ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/793b3a7e-0f0f-41e3-9597-4ecc85ebe7fc)
-      
+     
     
 #### 7 Descrição dos dados 
     [objeto]: [descrição do objeto]
