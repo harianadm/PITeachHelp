@@ -71,7 +71,7 @@ Relatório de quais matérias foram mais escolhidas pelos usuários<br>
 Relatório sobre as avaliações realizadas entre os usuários<br>
     
  ### 6.MODELO CONCEITUAL<br>
- ![image](https://github.com/harianadm/PITeachHelp/assets/91471333/bdbe4c93-5bb5-4ff4-b8d5-1714462b2b1a)
+ ![image](https://github.com/harianadm/PITeachHelp/assets/91471333/bdbe4c93-5bb5-4ff4-b8d5-1714462b2b1a)  ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/bd4d933b-47d4-422f-9488-13914ee2e47c)
       
     
 #### 7 Descrição dos dados 
