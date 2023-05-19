@@ -45,17 +45,14 @@ Dicionário <br>
 
 
 #### 3.3 Validação da Ideia.
-a) Link do formulário desenvolvido
-b) Link para Relatório/Apresentação de resultados obtidos
+[a) Link do formulário desenvolvido](https://forms.gle/4G4echLPE7DGumtc7)
+
+[b) Link para Relatório/Apresentação de resultados obtidos](https://www.canva.com/design/DAFgficO0WU/ow7QRr0P9hOsrB-BuAmOnA/view?utm_content=DAFgficO0WU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ### 4.Personas e Histórias de usuário<br>
-<img src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" Personas src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" width="500" height="500" /> <br>
-a) inclusão dos Persons desenvolvidos pelo grupo<br>
-<br>
-<img src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" UserStory src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" width="500" height="300" /> <br>
-b) inclusão das Histórias de usuário desenvolvidas pelo grupo
-<br>
+Eu como aluno quero visualizar uma lista de instrutores de matérias e submatérias escolhidas por mim para contatar o intrutor escolhido por mim
 
+Eu como Instrutor quero disponibilizar minhas competências para os usuarios da aplicação para ser contatado por eles
 
 ### 5. PROTÓTIPOS DO SISTEMA<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
