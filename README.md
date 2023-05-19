@@ -52,6 +52,7 @@ Dicionário <br>
 ### 4.Personas e Histórias de usuário<br>
 ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/9799f798-4ee4-4d03-9bab-25a94a15c833) <br>
 ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/36caa5e3-f972-4a61-bc66-0e89e6b3b399) <br>
+![image](https://github.com/harianadm/PITeachHelp/assets/103004390/a6d8edd6-68b2-467b-b275-72afa8f1b626) <br>
 
 Eu como aluno quero visualizar uma lista de instrutores de matérias e submatérias escolhidas por mim para contatar o intrutor escolhido por mim
 
