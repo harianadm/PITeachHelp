@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Davi Cardoso Salles: cardososallesdavi@gmail.com<br>
-Evelyn Pereira: evelynpo59@gmail.com<br>
+Evelyn Pereira Otavio: evelynpo59@gmail.com<br>
 Harian Adami Chagas Radaelli: harianadami@gmail.com<br>
 Wilsiman Santos Evangelista Silva: 
 ...
