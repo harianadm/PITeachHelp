@@ -1,12 +1,12 @@
-# TRABALHO DE PI:  Título do Trabalho
+# TRABALHO DE PI:  TeachHelp
 Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Davi Cardoso Salles :cardososallesdavi@gmail.com<br>
+Evelyn Pereira :evelynpo59@gmail.com<br>
 ...
 
 ### 2.MINIMUNDO<br>
@@ -15,19 +15,36 @@ Entrevista com o usuário e identificação dos requisitos.(quando for o caso de
 Descrição textual das regras de negócio definidas como um subconjunto do mundo real cujos elementos são propriedades que desejamos incluir, processar, armazenar, gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 <br>
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes..
- 
- 
+> Você já se deparou com dificuldades no aprendizado de um conteúdo? 
+Como você solucionou esse problema? Acredita que necessitava de professores à sua disposição? Inspirados nisso desenvolvemos uma plataforma de instrutores particulares, o TeachHelp
+Nossa plataforma possibilita conectar instrutores especializados que ensinam conteúdos personalizados aos usuários. Não só matérias do meio acadêmico, mas diversos âmbitos e especializações, como esportes, música, informática, entre outros. 
+Nosso sistema irá conter informações sobre os alunos (nome, e-mail, telefone e endereço) e dos instrutores (nome, e-mail, telefone, endereço, região em que dará aula, matéria e currículo). O aluno poderá procurar por professores por uma aba de pesquisa e filtrar por região e matéria que precisa; já o professor poderá realizar o cadastro e receberá uma solicitação assim que seus serviços forem acionados. O aplicativo irá disponibilizar um chat para um contato inicial do aluno com o professor/instrutor, além de tornar o currículo do instrutor/professor acessível para os alunos.
+
+Requisitos:
+O sistema deve permitir os usuários visualizarem uma lista com os instrutores cadastrados e suas respectivas informações
+O sistema deve possuir local para avaliação dos instrutores por parte dos usuários
+O sistema deve possuir uma área para visualização da agenda de atividades do instrutor
+O sistema deve permitir que alunos se cadastrem. Para isso, é preciso as informações de nome, e-mail, endereço e telefone. 
+O sistema deve permitir que instrutores se cadastrem. Para isso, é preciso as informações de nome, e-mail, endereço, telefone, matéria.
+O sistema será web/mobile
+A lista de instrutores visualizada pelos usuários terá um filtro para pesquisa
+O sistema será construído em html, css, js e php (web) e java (mobile)
+
+
 ### 3.PMC<br>
-![Exemplo de PMC](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/PMC.jpg?raw=true "PMC")
+Nosso PMC: https://docs.google.com/presentation/d/1yU2cTgEOXstYfytNe7FxaqfhF0bWs9rByE93pu4grcs/edit?usp=sharing <br>
 
-
-
-a) inclusão do PMC desenvolvido pelo grupo <br>
+![image](https://github.com/harianadm/PITeachHelp/assets/91471333/4148788a-356f-4e7d-8925-3dd42882f49c) <br>
 
 #### 3.1. EAP - Estrutura Analítica do Projeto
-a) Incluír imagem da EAP 
-b) Dicinário da EAP 
+
+![image](https://github.com/harianadm/PITeachHelp/assets/91471333/fa25f70f-9219-47e0-aadc-6417b6df7c64) <br>
+
+Dicionário <br>
+
+![image](https://github.com/harianadm/PITeachHelp/assets/91471333/1b5b87bc-4fb2-4d62-86cf-947ae2ab673b) <br>
+
+
 
 #### 3.2. Requisitos funcionais e não funcionais
 Incluir informações de: Identificador , Descrição e Prioridade
