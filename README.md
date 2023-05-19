@@ -55,28 +55,19 @@ Eu como aluno quero visualizar uma lista de instrutores de matérias e submatér
 Eu como Instrutor quero disponibilizar minhas competências para os usuarios da aplicação para ser contatado por eles
 
 ### 5. PROTÓTIPOS DO SISTEMA<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Protótipo do sistema mobile: https://app.quant-ux.com/#/test.html?h=a2aa10azlPSGB1WKfzwmkbl8ybBReSbrF5OwUVs0Z3h4r8gQN4eyyMrRYg7G&ln=en
 
-![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
-
-#### 5.1 PROTÓTIPO DO SISTEMA MOBILE
-
-#### 5.2 PROTÓTIPO DO SISTEMA WEB
+O professor ofertou a opção de escolhermos qual protótipo desenvolver e escolhemos por desenvolver apenas o protótipo mobile.
 
 #### 5.3 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM OS SISTEMA WEB/MOBILE PROPOSTOS?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+
+Relatório sobre quais instrutores estão relacionados a alguma matéria
+Relatório sobre quais horarios e quais dias da semana estão disponiveis por algum instrutor
+Relatório da quantidade de instrutores em uma determinada região
+Relatório de quais matérias foram mais escolhidas pelos usuários
+Relatório sobre as avaliações realizadas entre os usuários
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
- 
  ### 6.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 4.
