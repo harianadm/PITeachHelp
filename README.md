@@ -39,10 +39,10 @@ Dicionário <br>
 
 
 #### 3.2. Requisitos funcionais e não funcionais
-Incluir informações de: Identificador , Descrição e Prioridade
-Exemplos:<br>
-a) <img src="https://raw.githubusercontent.com/discproint/template_projeto_integrador/main/arquivos/requisitos_funcionais.png" width="350" height="100" /> <br>
-b) <img src="https://raw.githubusercontent.com/discproint/template_projeto_integrador/main/arquivos/requisitos_nao_funcionais.png" width="350" height="190" /> <br>
+
+![image](https://github.com/harianadm/PITeachHelp/assets/91471333/417eef31-dd44-4eb8-ab48-9623a5953171)
+![image](https://github.com/harianadm/PITeachHelp/assets/91471333/f4eb2d28-3fe4-44f7-9a26-d0a352c705cd)
+
 
 #### 3.3 Validação da Ideia.
 a) Link do formulário desenvolvido
