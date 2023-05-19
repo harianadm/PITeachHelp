@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Davi Cardoso Salles: cardososallesdavi@gmail.com<br>
-Evelyn Pereira Otavio: evelynpo59@gmail.com<br>
+Evelyn Pereira Otávio: evelynpo59@gmail.com<br>
 Harian Adami Chagas Radaelli: harianadami@gmail.com<br>
 Wilsiman Santos Evangelista Silva: wilsiman.evangelista.ifes@gmail.com<br>
 ...
@@ -50,6 +50,8 @@ Dicionário <br>
 [b) Link para Relatório/Apresentação de resultados obtidos](https://www.canva.com/design/DAFgficO0WU/ow7QRr0P9hOsrB-BuAmOnA/view?utm_content=DAFgficO0WU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ### 4.Personas e Histórias de usuário<br>
+![image](https://github.com/harianadm/PITeachHelp/assets/103004390/6118e120-f043-4630-801a-d79dc21c8771)
+
 Eu como aluno quero visualizar uma lista de instrutores de matérias e submatérias escolhidas por mim para contatar o intrutor escolhido por mim
 
 Eu como Instrutor quero disponibilizar minhas competências para os usuarios da aplicação para ser contatado por eles
