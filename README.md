@@ -50,7 +50,7 @@ Dicionário <br>
 [b) Link para Relatório/Apresentação de resultados obtidos](https://www.canva.com/design/DAFgficO0WU/ow7QRr0P9hOsrB-BuAmOnA/view?utm_content=DAFgficO0WU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ### 4.Personas e Histórias de usuário<br>
-![image](https://github.com/harianadm/PITeachHelp/assets/103004390/6118e120-f043-4630-801a-d79dc21c8771)
+![image](https://github.com/harianadm/PITeachHelp/assets/103004390/6118e120-f043-4630-801a-d79dc21c8771) ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/36caa5e3-f972-4a61-bc66-0e89e6b3b399)
 
 Eu como aluno quero visualizar uma lista de instrutores de matérias e submatérias escolhidas por mim para contatar o intrutor escolhido por mim
 
