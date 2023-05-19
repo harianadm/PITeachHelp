@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Davi Cardoso Salles: cardososallesdavi@gmail.com<br>
 Evelyn Pereira Otavio: evelynpo59@gmail.com<br>
 Harian Adami Chagas Radaelli: harianadami@gmail.com<br>
-Wilsiman Santos Evangelista Silva: 
+Wilsiman Santos Evangelista Silva: wilsiman.evangelista.ifes@gmail.com<br>
 ...
 
 ### 2.MINIMUNDO<br>
