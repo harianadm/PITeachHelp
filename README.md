@@ -78,12 +78,57 @@ Relatório sobre as avaliações realizadas entre os usuários<br>
     
 #### 7 Descrição dos dados 
     [objeto]: [descrição do objeto]
-    
-    INSTRUTOR: Tabela que armazena as informações relativas ao instrutor <br>
-    CURRICULO: Campo que armazena informações especificas do instrutor como formação, tempo atuando na área, etc <br>
-    HORA: Tabela que armazena as informações de horario disponivel do instrutor <br>
-    DIA_SEMANA: Tabela que armazena as informações de dia da semana que o instrutor estará disponivel <br> 
-    PESSOA: Tabela que armazena informações relativas a pessoa <br>
+PESSOA: Tabela que indica todos os usuários cadastrados no site.<br>
+-nome: campo que obtém o nome completo da pessoa cadastrada.<br>
+-foto: campo que possui uma foto da pessoa cadastrada para identificação<br>
+-data_nascimento: campo com a data de nascimento da pessoa cadastrada.<br>
+-descricao: campo que contém uma descrição opcional da pessoa.<br>
+-cpf: campo para identificação da pessoa.<br>
+-id: campo de identificação do usuário da pessoa cadastrada.<br>
+INSTRUTOR: Tabela que herda os atributos de PESSOA, mas com informações adicionais para identificar um instrutor na plataforma.<br>
+-currículo: campo com um link para o currículo do instrutor.<br>
+PESSOA_AVALIA_INSTRUTOR: relação onde um usuário cadastrado poderá avaliar um instrutor.<br>
+-codigo: código da avaliação para identificá-la.<br>
+-nota: atributo que armazena a nota da avaliação, que será utilizada para calcular a nota média do instrutor.<br>
+INSTRUTOR_AVALIA_PESSOA: relação onde um instrutor cadastrado poderá avaliar outro usuário cadastrado (que não seja instrutor).<br>
+-codigo: código da avaliação para identificá-la.<br>
+-nota: atributo que armazena a nota da avaliação, que será utilizada para calcular a nota média do aluno.<br>
+MATERIA: Tabela que possui as matérias cadastradas no site.<br>
+-codigo: atributo para identificar a matéria.<br>
+-descricao: atributo que armazena o nome da matéria.<br>
+SUBMATERIAS: Tabela que possui submatérias, correspondentes a uma matéria.<br>
+-codigo: atributo para identificar a submatéria.<br>
+-descricao: atributo que armazena o nome da submatéria.<br>
+HORA: Tabela que possui os horários possíveis para o instrutor adicionar a sua agenda.<br>
+-codigo: identificação do horário.<br>
+-hora: atributo que mostra o horário.<br>
+DIA_SEMANA: tabela que mostra os dias da semana.<br>
+-codigo: atributo que identifica cada dia.<br>
+-dia: atributo que nomeia o dia em questão.<br>
+Agenda: relação que armazena um determinado número de atributos de DIA_SEMANA e HORA (selecionados pelo instrutor), e os combina para criar uma agenda.<br>
+ENDERECO: Tabela que apresentará os endereços dos usuários cadastrados na plataforma.<br>
+-nome_logradouro: atributo que contém o nome do logradouro do endereço cadastrado.<br>
+-numero: atributo que possui o número do endereço cadastrado.<br>
+-cep: atributo que armazena o cep do endereço cadastrado.<br>
+-codigo: atributo de identificação do endereço.<br>
+TIPO_LOGRADOURO: tabela que possui os tipos de logradouros para ser utilizada no cadastro do endereço.<br>
+-codigo: atributo de identificação do tipo de logradouro.<br>
+-descricao: atributo que nomeia o tipo de logradouro.<br>
+BAIRRO: tabela que irá conter os bairros para o cadastro do endereço.<br>
+-codigo: atributo de identificação do bairro.<br>
+-nome: atributo que nomeia o bairro.<br>
+MUNICIPIO: tabela que irá conter os municípios para o cadastro do endereço.<br>
+-codigo: atributo de identificação do município.<br>
+-nome: atributo que nomeia o município.<br>
+COMPLEMENTO: tabela que contém os complementos de cada endereço.<br>
+-codigo: atributo de identificação do complemento.<br>
+-nome: atributo que nomeia o complemento.<br>
+CONTATO: tabela que contém os contatos inseridos pelo usuário no seu cadastro.<br>
+-codigo: atributo de identificação do contato.<br>
+-descricao: atributo que representa o contato em si, seja composto por números (telefone) ou pelo corpo do e-mail.<br>
+TIPO_CONTATO: tabela que representa o tipo do contato (e-mail ou telefone).<br>
+-codigo: atributo de identificação do tipo do contato.<br>
+-descricao: atributo que nomeia o tipo do contato.<br>
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (Histórias de Usuário e em qual tela do protótipo aquela HU está sendo realizada).
