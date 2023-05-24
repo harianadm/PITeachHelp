@@ -243,7 +243,7 @@ CREATE TABLE Agenda_HORA_INSTRUTOR_DIA_SEMANA (
 
         
 ### 11	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        insert into bairro (nome) values ('jardim da penha'), ('Itaparica'), ('São Diogo'), ('Laranjeiras'), ('Morada de Laranjeiras'), ('Jacaraipe'), ('Jucutuquara'), ('Maria Ortiz'), ('Colina da Laranjeiras'), ('Goiabeiras');<br>
+insert into bairro (nome) values ('jardim da penha'), ('Itaparica'), ('São Diogo'), ('Laranjeiras'), ('Morada de Laranjeiras'), ('Jacaraipe'), ('Jucutuquara'), ('Maria Ortiz'), ('Colina da Laranjeiras'), ('Goiabeiras');<br>
 
 insert into municipio (nome) values ('Serra'), ('Vitória'), ('Vila Velha'), ('Cariacica');<br>
 
