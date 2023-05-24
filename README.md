@@ -79,9 +79,11 @@ Relatório sobre as avaliações realizadas entre os usuários<br>
 #### 7 Descrição dos dados 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    INSTRUTOR: Tabela que armazena as informações relativas ao instrutor <br>
+    CURRICULO: Campo que armazena informações especificas do instrutor como formação, tempo atuando na área, etc <br>
+    HORA: Tabela que armazena as informações de horario disponivel do instrutor <br>
+    DIA_SEMANA: Tabela que armazena as informações de dia da semana que o instrutor estará disponivel <br> 
+    PESSOA: Tabela que armazena informações relativas a pessoa <br>
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (Histórias de Usuário e em qual tela do protótipo aquela HU está sendo realizada).
