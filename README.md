@@ -131,7 +131,7 @@ TIPO_CONTATO: tabela que representa o tipo do contato (e-mail ou telefone).<br>
 -descricao: atributo que nomeia o tipo do contato.<br>
 
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
-        ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/1738246f-9b04-4b49-ba2d-00cb4533f56a)
+![image](https://github.com/harianadm/PITeachHelp/assets/103004390/1738246f-9b04-4b49-ba2d-00cb4533f56a)
 
 ### 9	MODELO LÓGICO<br>
  ![image](https://github.com/harianadm/PITeachHelp/assets/91471333/ab2edbb3-b16a-4596-b71e-0a654c86d623)
