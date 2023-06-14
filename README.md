@@ -496,13 +496,11 @@ VALUES
 
 #### 12 PRINCIPAIS CONSULTAS DO SISTEMA 
  Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
- <br>
-  a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
- <br>
-  b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
+
+https://colab.research.google.com/drive/1aj4wgpYyQ_izeBhBh8uaTrZiBQbsB7NF?usp=sharing
 
  ### 13 Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
-     OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
+     https://colab.research.google.com/drive/1aj4wgpYyQ_izeBhBh8uaTrZiBQbsB7NF?usp=sharing
  #### 13.1	Integração com Linguagem de programação; <br>
  #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
  #### solicitações feitas pelo professor. <br>
