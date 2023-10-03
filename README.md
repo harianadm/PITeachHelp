@@ -88,6 +88,7 @@ ALUNO: Tabela que indica todos os usuários cadastrados no site.<br>
 -email: campo de identificação do usuário da pessoa cadastrada.<br>
 INSTRUTOR: Tabela que herda os atributos de PESSOA, mas com informações adicionais para identificar um instrutor na plataforma.<br>
 -currículo: campo com um link para o currículo do instrutor.<br>
+-nota: campo que apresenta a nota baseado nas avaliações do instrutor.<br>
 PESSOA_AVALIA_INSTRUTOR: relação onde um usuário cadastrado poderá avaliar um instrutor.<br>
 -codigo: código da avaliação para identificá-la.<br>
 -nota: atributo que armazena a nota da avaliação, que será utilizada para calcular a nota média do instrutor.<br>
