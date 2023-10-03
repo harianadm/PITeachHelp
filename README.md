@@ -78,13 +78,14 @@ Relatório sobre as avaliações realizadas entre os usuários<br>
     
 #### 7 Descrição dos dados 
     [objeto]: [descrição do objeto]
-PESSOA: Tabela que indica todos os usuários cadastrados no site.<br>
+ALUNO: Tabela que indica todos os usuários cadastrados no site.<br>
 -nome: campo que obtém o nome completo da pessoa cadastrada.<br>
 -foto: campo que possui uma foto da pessoa cadastrada para identificação<br>
 -data_nascimento: campo com a data de nascimento da pessoa cadastrada.<br>
 -descricao: campo que contém uma descrição opcional da pessoa.<br>
--cpf: campo para identificação da pessoa.<br>
--id: campo de identificação do usuário da pessoa cadastrada.<br>
+-senha: campo que permite o acesso do usuário a sua conta.<br>
+-endereco: campo que contém a localização da pessoa.<br>
+-email: campo de identificação do usuário da pessoa cadastrada.<br>
 INSTRUTOR: Tabela que herda os atributos de PESSOA, mas com informações adicionais para identificar um instrutor na plataforma.<br>
 -currículo: campo com um link para o currículo do instrutor.<br>
 PESSOA_AVALIA_INSTRUTOR: relação onde um usuário cadastrado poderá avaliar um instrutor.<br>
@@ -95,10 +96,10 @@ INSTRUTOR_AVALIA_PESSOA: relação onde um instrutor cadastrado poderá avaliar 
 -nota: atributo que armazena a nota da avaliação, que será utilizada para calcular a nota média do aluno.<br>
 MATERIA: Tabela que possui as matérias cadastradas no site.<br>
 -codigo: atributo para identificar a matéria.<br>
--descricao: atributo que armazena o nome da matéria.<br>
+-nome: atributo que armazena o nome da matéria.<br>
 SUBMATERIAS: Tabela que possui submatérias, correspondentes a uma matéria.<br>
 -codigo: atributo para identificar a submatéria.<br>
--descricao: atributo que armazena o nome da submatéria.<br>
+-nome: atributo que armazena o nome da submatéria.<br>
 HORA: Tabela que possui os horários possíveis para o instrutor adicionar a sua agenda.<br>
 -codigo: identificação do horário.<br>
 -hora: atributo que mostra o horário.<br>
