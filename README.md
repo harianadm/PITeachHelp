@@ -89,16 +89,13 @@ ALUNO: Tabela que indica todos os usuários cadastrados no site.<br>
 INSTRUTOR: Tabela que herda os atributos de PESSOA, mas com informações adicionais para identificar um instrutor na plataforma.<br>
 -currículo: campo com um link para o currículo do instrutor.<br>
 -nota: campo que apresenta a nota baseado nas avaliações do instrutor.<br>
-PESSOA_AVALIA_INSTRUTOR: relação onde um usuário cadastrado poderá avaliar um instrutor.<br>
+ALUNO_AVALIA_INSTRUTOR: relação onde um usuário cadastrado poderá avaliar um instrutor.<br>
 -codigo: código da avaliação para identificá-la.<br>
 -nota: atributo que armazena a nota da avaliação, que será utilizada para calcular a nota média do instrutor.<br>
-INSTRUTOR_AVALIA_PESSOA: relação onde um instrutor cadastrado poderá avaliar outro usuário cadastrado (que não seja instrutor).<br>
--codigo: código da avaliação para identificá-la.<br>
--nota: atributo que armazena a nota da avaliação, que será utilizada para calcular a nota média do aluno.<br>
 MATERIA: Tabela que possui as matérias cadastradas no site.<br>
 -codigo: atributo para identificar a matéria.<br>
 -nome: atributo que armazena o nome da matéria.<br>
-SUBMATERIAS: Tabela que possui submatérias, correspondentes a uma matéria.<br>
+SUBMATERIA: Tabela que possui submatérias, correspondentes a uma matéria.<br>
 -codigo: atributo para identificar a submatéria.<br>
 -nome: atributo que armazena o nome da submatéria.<br>
 HORA: Tabela que possui os horários possíveis para o instrutor adicionar a sua agenda.<br>
@@ -132,6 +129,7 @@ TIPO_CONTATO: tabela que representa o tipo do contato (e-mail ou telefone).<br>
 -codigo: atributo de identificação do tipo do contato.<br>
 -descricao: atributo que nomeia o tipo do contato.<br>
 
+
 ### 8	RASTREABILIDADE DOS ARTEFATOS<br>
 ![image](https://github.com/harianadm/PITeachHelp/assets/103004390/1af71482-bf6d-4039-a7a5-01f5d8e3c703)
 
@@ -139,6 +137,7 @@ TIPO_CONTATO: tabela que representa o tipo do contato (e-mail ou telefone).<br>
  ![image](https://github.com/harianadm/PITeachHelp/assets/91471333/ab2edbb3-b16a-4596-b71e-0a654c86d623)
 
 ### 10	MODELO FÍSICO<br>
+
        CREATE TABLE BAIRRO (
     codigo SERIAL PRIMARY KEY,
     nome VARCHAR
@@ -164,27 +163,13 @@ CREATE TABLE TIPO_LOGRADOURO (
     descricao VARCHAR
 );<br>
 
-CREATE TABLE CONTATO (
-    codigo SERIAL PRIMARY KEY,
-    descricao VARCHAR,
-    FK_PESSOA_id SERIAL,
-    FK_TIPO_CONTATO_codigo SERIAL,
-    FOREIGN KEY (FK_PESSOA_id) REFERENCES PESSOA (id),
-    FOREIGN KEY (FK_TIPO_CONTATO_codigo) REFERENCES TIPO_CONTATO (codigo)
-
-);<br>
-
-CREATE TABLE TIPO_CONTATO (
-    codigo SERIAL PRIMARY KEY,
-    descricao VARCHAR
-);<br>
 
 CREATE TABLE MATERIA (
     codigo SERIAL PRIMARY KEY,
     descricao VARCHAR
 );<br>
 
-CREATE TABLE SUBMATERIAS (
+CREATE TABLE SUBMATERIA (
     codigo SERIAL PRIMARY KEY,
     descricao VARCHAR,
     FK_MATERIA_codigo SERIAL,
@@ -214,58 +199,46 @@ CREATE TABLE ENDERECO_COMPLEMENTO (
 );<br>
 
 CREATE TABLE FAVORITA (
-    FK_INSTRUTOR_FK_PESSOA_id SERIAL,
-    FK_PESSOA_id SERIAL,
-    FOREIGN KEY (FK_INSTRUTOR_FK_PESSOA_id) REFERENCES PESSOA (id),
-    FOREIGN KEY (FK_PESSOA_id) REFERENCES PESSOA (id)
+    FK_INSTRUTOR_FK_ALUNO_email SERIAL,
+    FK_ALUNO_email SERIAL,
+    FOREIGN KEY (FK_INSTRUTOR_FK_ALUNO_email) REFERENCES ALUNO(email),
+    FOREIGN KEY (FK_ALUNO_id) REFERENCES ALUNO(email)
 );<br>
 
-CREATE TABLE PESSOA_AVALIA_INSTRUTOR (
-    fk_INSTRUTOR_FK_PESSOA_id SERIAL,
-    fk_PESSOA_id SERIAL,
+CREATE TABLE ALUNO_AVALIA_INSTRUTOR (
+    fk_INSTRUTOR_FK_ALUNO_email SERIAL,
+    fk_ALUNO_email SERIAL,
     codigo SERIAL PRIMARY KEY,
     nota INTEGER,
-    FOREIGN KEY (fk_INSTRUTOR_FK_PESSOA_id) REFERENCES PESSOA (id),
-    FOREIGN KEY (fk_PESSOA_id) REFERENCES PESSOA (id)
+    FOREIGN KEY (fk_INSTRUTOR_FK_ALUNO_email) REFERENCES ALUNO(email),
+    FOREIGN KEY (fk_ALUNO_email) REFERENCES ALUNO(email)
 );<br>
 
-CREATE TABLE INSTRUTOR_AVALIA_PESSOA (
-    FK_INSTRUTOR_FK_PESSOA_id SERIAL,
-    FK_PESSOA_id SERIAL,
-    nota INTEGER,
-    codigo SERIAL PRIMARY KEY,
-    FOREIGN KEY (FK_INSTRUTOR_FK_PESSOA_id) REFERENCES PESSOA (id),
-    FOREIGN KEY (FK_PESSOA_id) REFERENCES PESSOA (id)
 
+
+CREATE TABLE INSTRUTOR_SUBMATERIA (
+    fk_INSTRUTOR_FK_ALUNO_email SERIAL,
+    fk_SUBMATERIA_codigo SERIAL,
+    FOREIGN KEY (fk_INSTRUTOR_FK_ALUNO_email) REFERENCES ALUNO(email),
+    FOREIGN KEY (fk_SUBMATERIA_codigo) REFERENCES SUBMATERIA(codigo)
 );<br>
 
-CREATE TABLE INSTRUTOR_MATERIA (
-    fk_INSTRUTOR_FK_PESSOA_id SERIAL,
-    fk_MATERIA_codigo SERIAL,
-    FOREIGN KEY (fk_INSTRUTOR_FK_PESSOA_id) REFERENCES PESSOA (id),
-    FOREIGN KEY (fk_MATERIA_codigo) REFERENCES PESSOA (id)
-);<br>
-
-CREATE TABLE PESSOA_MATERIA (
-    fk_MATERIA_codigo SERIAL,
-    fk_PESSOA_id SERIAL,
-    FOREIGN KEY (fk_MATERIA_codigo) REFERENCES MATERIA (codigo),
-    FOREIGN KEY (fk_PESSOA_id) REFERENCES PESSOA (id)
-);<br>
 
 CREATE TABLE INSTRUTOR (
     curriculo VARCHAR,
-    FK_PESSOA_id SERIAL PRIMARY KEY,
-    FOREIGN KEY (FK_PESSOA_id) REFERENCES PESSOA (id)
+    FK_SUBMATERIA_codigo SERIAL,
+    FK_ALUNO_email SERIAL PRIMARY KEY,
+    FOREIGN KEY (FK_ALUNO_email ) REFERENCES ALUNO(email)
+    FOREIGN KEY (FK_SUBMATERIA_codigo  ) REFERENCES SUBMATERIA(codigo)
 );<br>
 
-CREATE TABLE PESSOA (
+CREATE TABLE ALUNO(
     nome VARCHAR,
     foto VARCHAR,
     descricao VARCHAR,
-    cpf INTEGER,
-    data_nascimento INTEGER,
-    id SERIAL PRIMARY KEY,
+    data_nascimento DATE,
+    senha VARCHAR;
+    email SERIAL PRIMARY KEY,
     FK_ENDERECO_codigo SERIAL,
     FOREIGN KEY (FK_ENDERECO_codigo) REFERENCES ENDERECO (codigo)
 );<br>
@@ -288,6 +261,7 @@ CREATE TABLE Agenda_HORA_INSTRUTOR_DIA_SEMANA (
     FOREIGN KEY (fk_DIA_SEMANA_codigo) REFERENCES DIA_SEMANA (codigo)
 );<br>
 
+
         
 ### 11	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 insert into bairro (nome) values ('jardim da penha'), ('Itaparica'), ('São Diogo'), ('Laranjeiras'), ('Morada de Laranjeiras'), ('Jacaraipe'), ('Jucutuquara'), ('Maria Ortiz'), ('Colina da Laranjeiras'), ('Goiabeiras');<br>
@@ -300,32 +274,6 @@ insert into complemento (descricao) values ('Apt 104'), ('Apt 302, bloco 5'), ('
 
 insert into tipo_logradouro (descricao) values ('Rua'), ('Avenida'), ('Viela');<br>
 
-INSERT INTO contato (descricao, fk_pessoa_id, fk_tipo_contato_codigo)
-VALUES
-    ('(28) 99594-9598', 1, 1),
-    ('(27) 98127-4043', 2, 1),
-    ('(27) 99727-3667', 3, 1),
-    ('(28) 99560-5862', 4, 1),
-    ('Rayssa.Silva@gmail.com', 4, 2),
-    ('(27) 97534-5534', 5, 1),
-    ('ana.nunes98@gmail.com', 5, 2),
-    ('harianadami@gmail.com', 6, 2),
-    ('fbruno3409@hotmail.com', 7, 2),
-    ('(28) 98673-2373', 8, 1),
-    ('fideliszanetti@hotmail.edu.com', 8, 2),
-    ('(28) 99965-4897', 9, 1),
-    ('(28) 98113-0608', 10, 1),
-    ('camilafraga@gmail.com', 11, 2),
-    ('(28) 98985-4821', 12, 1),
-    ('(27) 99772-4715', 13, 1),
-    ('nauviasouza18@gmail.edu.com', 13, 2),
-    ('(27) 99966-3287', 14, 1),
-    ('(27) 97525-8539', 15, 1),
-    ('davinunesribeiro@hotmail.com', 15, 2),
-    ('(27) 97699-2345', 16, 1),
-    ('rosilene@gmail.com', 16, 2);<br>
-
-insert into tipo_contato (descricao) values ('Telefone'), ('E-mail');<br>
 
 insert into materia (descricao) values ('Português'), ('Matemática'), ('História'), ('Música'), ('Esportes');<br>
 
