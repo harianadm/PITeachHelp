@@ -261,6 +261,10 @@ CREATE TABLE Agenda_HORA_INSTRUTOR_DIA_SEMANA (
     FOREIGN KEY (fk_DIA_SEMANA_codigo) REFERENCES DIA_SEMANA (codigo)
 );<br>
 
+#Código MySql utilizado:
+
+CREATE TABLE `if0_35400743_Teachhelp`.`alunos` ( `id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(80) NOT NULL , `email` VARCHAR(50) NOT NULL , `dt_nasc` DATE NOT NULL , `descricao` TEXT NULL DEFAULT NULL , `senha` VARCHAR(20) NOT NULL , `endereco` DATE NOT NULL , `foto` TEXT NULL DEFAULT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM CHARSET=utf8 COLLATE utf8_unicode_ci; <br>
+
 
         
 ### 11	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
